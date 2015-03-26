@@ -1,6 +1,7 @@
-function sum_numbers() {
-    var i, sum = 0;
-    for(i = 0; i < arguments.length; i++) {
-        sum += arguments[i];
+function sum_numbers(n) {
+    var sum = 0;
+    for(var i = 0; i <= n; i++) {
+        sum = sum + i;
     }
     return sum;
+};
